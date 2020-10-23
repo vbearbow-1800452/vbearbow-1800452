@@ -1,11 +1,17 @@
-body{ 
+body{ font-size: 55px;
+      float: left;
+
 
 }
 
-P{ 
+p{ 
+    color: purple; 
+    text-align: center;
 
-    
+
+
 }
+
 
 #Header{
     width: 500px;
@@ -16,17 +22,15 @@ P{
     text-align: center;
 
 }
-
 #Header h1{
      font-size: 60px;
      font-family: "Passion One";
      color: #FFBC00;
      font-weight: bold;
-
 }
 
-#LeftNav{ 
-    width: 400px; 
+#LeftNav{
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -46,21 +50,19 @@ P{
     text-align: center;
     padding: 15px;
 
-} 
+}
 
-#footer{
+#Footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     border: solid 8px black;
     text-align: center;
-}
 
+}
 
 ul{
     list-style-type: none;
     padding-left: 0px;
-
-
 }
  
