@@ -1,11 +1,12 @@
-body{ font-size: 55px;
-      float: left;
+body{ background-image: url(dark_wood.png);
 
 
 }
 
 p{ 
-    color: purple; 
+    color: white; 
+    font-weight: bold;
+    font-family: Arial;
     text-align: center;
 
 
@@ -20,6 +21,7 @@ p{
     margin-bottom: 10px;
     border: solid 8px black;
     text-align: center;
+    background-color: #8E41D5;
 
 }
 #Header h1{
@@ -27,6 +29,7 @@ p{
      font-family: "Passion One";
      color: #FFBC00;
      font-weight: bold;
+     background-color: #8E41D5;
 }
 
 #LeftNav{
@@ -34,10 +37,12 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    Background-image: linear-gradient(#8E41D5, #ffbc00);
     border: solid 8px black;
-    float: left;
+    float: center;
     text-align: center;
     padding-bottom: 8px;
+    
 
 }
 
@@ -49,6 +54,7 @@ p{
     border: solid 8px black;
     text-align: center;
     padding: 15px;
+    background-color: #8E41D5;
 
 }
 
@@ -58,11 +64,18 @@ p{
     margin-bottom: 10px;
     border: solid 8px black;
     text-align: center;
+    background-color: #8E41D5;
 
 }
 
 ul{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
     list-style-type: none;
     padding-left: 0px;
+    background-color: #8E41D5;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+
 }
- 
